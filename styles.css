@@ -30,10 +30,12 @@
 
 #navbar__logo {
     background: #884d00;
-    background: linear-gradient(to bottom, 
+    background: linear-gradient(
+        to bottom, 
     #3d2f00 7%,
     #de8a22 27%,
-    #ffea00 67%);
+    #ffea00 67%
+        );
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -203,7 +205,11 @@
 /* Hero */
 .hero {
     background: #000000;
-    background: linear-gradient(to right, #161616, #000000);
+    background: linear-gradient(
+        to right,
+        #161616, 
+        #000000
+        );
     padding: 200px 0;
 }
 
@@ -227,7 +233,8 @@
 
 .hero__heading span {
     background: #ec8c0e;
-    background: linear-gradient(to bottom, 
+    background: linear-gradient(
+        to bottom, 
     #3d2f00 7%,
     #d4680f 27%,
     #ffea00 80%);
@@ -241,16 +248,18 @@
 .hero__description {
     font-size: 60px;
     background: #ff9203;
-    background: -webkit-linear-gradient(to bottom, 
+    background: -webkit-linear-gradient(
+        to bottom, 
     #a56619 0%,
     #f79927 39%,
     #ffea00 90%
-    );
-    background: linear-gradient(to bottom, 
+        );
+    background: linear-gradient(
+        to bottom, 
     #a56619 0%,
     #f79927 39%,
     #ffea00 90%
-    );
+        );
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -299,10 +308,12 @@
 .main__content h1 {
     font-size: 2rem;
     background: #884d00;
-    background: linear-gradient(to bottom, 
+    background: linear-gradient(
+        to bottom, 
     #3d2f00 7%,
     #de8a22 27%,
-    #ffea00 67%);
+    #ffea00 67%
+        );
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -313,12 +324,14 @@
 .main__content h2 {
     font-size: 4rem;
     background: #ff9203;
-    background: -webkit-linear-gradient(to bottom, 
+    background: -webkit-linear-gradient(
+        to bottom, 
     #a56619 0%,
     #f79927 39%,
     #ffea00 90%
     );
-    background: linear-gradient(to bottom, 
+    background: linear-gradient(
+        to bottom, 
     #a56619 0%,
     #f79927 39%,
     #ffea00 90%
@@ -399,9 +412,10 @@
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(to right,
-    #3d33c3 0%,
-    #fab114 100%);
+    background-image: linear-gradient(
+        to right,
+        #3d33c3 0%,
+        #fab114 100%);
 }
 
 .fa-solid, .fa-circle-user {
@@ -410,14 +424,16 @@
 
 #card-2 {
     background: #833ab4;
-    background: -webkit-linear-gradient(to right,
-    #fcb045,
-    #fd1d1d
-    );
-    background: linear-gradient(to right,
-    #fcb045,
-    #fd1d1d
-    );
+    background: -webkit-linear-gradient(
+        to right,
+        #fcb045,
+        #fd1d1d
+        );
+    background: linear-gradient(
+        to right,
+        #fcb045,
+        #fd1d1d
+        );
 }
 
 /* Mobile Responsive */
@@ -497,7 +513,7 @@
     background: #131313;
     display: flex;
     flex-direction: column;
-    justify-content: cebter;
+    justify-content: center;
     align-items: center;
     height: 100%;
     padding: 10rem 0;
@@ -505,7 +521,8 @@
 
 .services h1 {
     background: #884d00;
-    background: linear-gradient(to bottom, 
+    background: linear-gradient(
+        to bottom, 
     #3d2f00 7%,
     #de8a22 27%,
     #ffea00 67%);
@@ -514,7 +531,6 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    margin-bottom: 5rem;
     font-size: 2.5rem;
 }
 .services__wrapper {
@@ -529,9 +545,10 @@
     width: 300px;
     border-radius: 4px;
     display: flex;
+    padding: 10px;
     flex-direction: column;
     justify-content: center;
-    color: #fff;
+    color: #000000;
     background: #C02425;  /* fallback for old browsers */
     background: -webkit-linear-gradient(
         to right, 
@@ -589,14 +606,26 @@
 
 .services__card h2 {
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+    padding: 0;
+    color: #fff;
+}
+
+.services__card ul {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .services__card p {
     text-align: center;
     margin: 24px;
-    font-size: 20px;
-    margin-top: 2px;
+    font-size: 14px;
+    margin-top: 0px;
+    font-weight: 600;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: #f7ff18;
 }
 
 .services__btn {
@@ -605,7 +634,7 @@
     margin-top: 16px;
 }
 
-.seervices__card button {
+.services__card button {
     color: #fff;
     padding: 14px 24px;
     border: none;
@@ -636,5 +665,3 @@
         grid-template-columns: 1fr;
     }
 }
-
-/* Footer */
